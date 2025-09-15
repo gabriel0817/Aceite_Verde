@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f9fafb; /* gris clarito de Tailwind */
+}
